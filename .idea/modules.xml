@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BotomBarDemo.iml" filepath="$PROJECT_DIR$/BotomBarDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BottomBarDemo.iml" filepath="$PROJECT_DIR$/BottomBarDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

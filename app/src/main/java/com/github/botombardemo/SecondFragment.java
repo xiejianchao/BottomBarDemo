@@ -15,7 +15,7 @@ import butterknife.ButterKnife;
  * Created by xiejianchao on 2017/11/1.
  */
 
-public class SecondFragment extends Fragment{
+public class SecondFragment extends Fragment {
 
     @BindView(R.id.tv_text)
     TextView mText;
@@ -30,8 +30,8 @@ public class SecondFragment extends Fragment{
     }
 
     @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
         mText.setText(this.getClass().getSimpleName());
     }
 

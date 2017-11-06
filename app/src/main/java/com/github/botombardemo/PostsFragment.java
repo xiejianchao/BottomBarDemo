@@ -14,10 +14,10 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * Created by xiejianchao on 2017/11/1.
+ * Created by xiejianchao on 2017/11/6.
  */
 
-public class FirstFragment extends Fragment{
+public class PostsFragment extends Fragment {
 
     @BindView(R.id.recycler_view)
     RecyclerView mRecyclerView;
@@ -26,7 +26,7 @@ public class FirstFragment extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable
             Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_first, container, false);
+        View view = inflater.inflate(R.layout.fragment_posts, container, false);
         ButterKnife.bind(this, view);
         return view;
     }

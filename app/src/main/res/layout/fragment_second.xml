@@ -8,8 +8,6 @@
         android:id="@+id/tv_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_gravity="center_horizontal"
         android:padding="10dp"
         android:text="This is a fragment"
         android:textSize="20sp"/>
