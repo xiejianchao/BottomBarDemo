@@ -34,7 +34,7 @@ public class FirstFragment extends Fragment{
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-
+        System.out.print("haha");
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         mRecyclerView.setAdapter(new NormalRecyclerViewAdapter(getActivity()));
         mRecyclerView.setItemAnimator(new DefaultItemAnimator());
