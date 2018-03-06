@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         mFragmentManager = getSupportFragmentManager();
         mBottomBar.setOnTabSelectListener(new TabSelectListener());
         mBottomBar.setOnTabReselectListener(new TabReselectListener());
+        //init view
     }
 
     private class TabSelectListener implements OnTabSelectListener {
